@@ -1,0 +1,12 @@
+W pliku fibo.txt podaj słowną oraz rekurencyjną definicję ciągu Fibonacciego.
+
+0   1   2   3   4   5   6    indeksy
+1   1   2   3   5   8   13   wartosci
+
+
+slowna: ciag Fibonacciego to ciag liczb, gdzie 2 pierwsze wyrazy wynosza 1 i kazdy
+nastepny jest suma dwoch poprzednich
+
+rekurencyjna:
+F(0) = F(1) = 1
+F(n) = F(n-1) + F(n-2)      dla n >= 2

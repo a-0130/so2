@@ -24,5 +24,17 @@ int main() {
     printf("float value b = %f\n\n", b);
     
 
+    printf("c = ");
+    
+    double c;
+    scanf("%lf", &c);   // lf - double, %.2f - float z ograniczeeniem
+    
+    printf("double value c = %.15lf\n\n", c);
+
     return 0;
 }
+// ctrl `    otwiera terminal
+/*
+gcc InputOutput.c -o InputOutput -Wall
+.\InputOutput.exe
+*/

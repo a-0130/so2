@@ -1,0 +1,7 @@
+Zad. 1.12 *
+
+W pliku liczba.txt wyznacz funkcję f(n) wyliczającą liczbę cyfr dla dowolnej
+liczby całkowitej n. Wykorzystaj funkcję log10(x).
+
+f(n) = {1           dla n = 0
+        log10(|x|)+1    dla n != 0}
